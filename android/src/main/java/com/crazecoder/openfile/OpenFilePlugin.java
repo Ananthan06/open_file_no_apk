@@ -399,7 +399,7 @@ public class OpenFilePlugin implements MethodCallHandler
         if (hasPermission(Manifest.permission.READ_EXTERNAL_STORAGE)
                 && TYPE_STRING_APK.equals(typeString)) {
 //             openApkFile();
-               result(-3, "Permission denied: " );
+//                result(-3, "Permission denied: " );
             return false;
         }
         for (String string : strings) {
